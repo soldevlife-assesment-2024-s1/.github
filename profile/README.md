@@ -16,7 +16,7 @@ To view the API documentation, please run the application and go to the followin
 
 **Swagger UI**
 
-https://soldevlife.github.io/.github/
+https://soldevlife-assesment-2024-s1.github.io/.github/
 
 ## Run
 ### How to test
