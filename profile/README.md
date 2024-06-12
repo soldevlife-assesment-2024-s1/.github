@@ -5,10 +5,10 @@
 This is a solution for ticketing system problem. The solution is implemented using Go and use GoRules as the rules engine.
 
 ## System Design
-![alt text](./profile/image.png)
+![alt text](./image.png)
 
 ## ERD
-![alt text](./profile/image-1.png)
+![alt text](./image-1.png)
 
 ## API Documentation
 
@@ -41,12 +41,12 @@ open postman and import the collection from the following file:
 
 Run the collection and check the result.
 
-![alt text](./profile/image-2.png)
+![alt text](./image-2.png)
 
 
 Result:
 
-![alt text](./profile/image-4.png)
+![alt text](./image-4.png)
 
 **Load Test**
 To perform load test, please run the following command:
@@ -69,7 +69,7 @@ k6 run --summary-trend-stats="med,p(95),p(99.9)" --out web-dashboard script.js
 
 **Open the dashboard link that will generate by k6 to see the result:**
 
-![alt text](./profile/image-3.png)
+![alt text](./image-3.png)
 
 
 ## How to deploy
@@ -78,7 +78,7 @@ k6 run --summary-trend-stats="med,p(95),p(99.9)" --out web-dashboard script.js
 
 To release the application, please run create a new release tag on github repository. The release tag will trigger the CI/CD pipeline to build and deploy the application.
 
-![alt text](./profile/image-5.png)
+![alt text](./image-5.png)
 
 **Run at kubernetes**
 This solution is deployed using Kubernetes. To deploy the solution, please follow the following steps:
@@ -109,7 +109,7 @@ kubectl get pods
 This application is tooled with opentelemetry to observe the application performance. To monitor we are using Jaeger for tracing and Prometheus for metrics.
 
 **Jaeger**
-![alt text](./profile/image-6.png)
+![alt text](./image-6.png)
 
 **Grafaana**
-![alt text](./profile/image-7.png)
+![alt text](./image-7.png)
